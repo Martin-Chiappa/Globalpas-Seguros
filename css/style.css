@@ -41,7 +41,7 @@ p {
 
 .title-somos {
   display: grid;
-  justify-items: center;
+  justify-content: center;
   margin: 1.25rem;
 }
 
@@ -52,19 +52,19 @@ p {
 
 .card-historia {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "titulo titulo" "imagen parrafo";
   gap: 1.875rem;
-  align-items: center;
 }
 .card-historia p {
   grid-area: parrafo;
 }
 .card-historia h2 {
   display: grid;
-  grid-area: titulo;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
+  grid-area: titulo;
   font-size: 2.1875rem;
   font-weight: bold;
   margin: 1.25rem 0;
@@ -100,6 +100,7 @@ p {
   width: 15.625rem;
   height: 6.25rem;
   text-align: center;
+  background-color: #FFF5EC;
   padding: 1.875rem;
   border: 0.125rem solid black;
 }
@@ -117,6 +118,7 @@ p {
   width: 15.625rem;
   height: 6.25rem;
   text-align: center;
+  background-color: #FFF5EC;
   padding: 1.875rem;
   border: 0.125rem solid black;
 }
@@ -127,6 +129,11 @@ p {
   align-items: center;
   height: 3.75rem;
   width: 100%;
+  background-color: white;
+}
+.derechos p {
+  margin: 0;
+  text-align: center;
 }
 
 .navbar-nav .nav-link {
@@ -140,16 +147,16 @@ p {
 .navegador {
   display: flex;
   justify-content: space-between;
-  background-color: #FFF5EC;
+  background-color: #FA8128;
   padding: 0.5rem 1rem;
 }
 .navegador ul {
   display: flex;
-  list-style: none;
   justify-content: flex-end;
+  align-items: center;
+  list-style: none;
   margin: 0;
   padding: 0;
-  align-items: center;
   gap: 0.5rem;
 }
 .navegador ul li a {
@@ -248,7 +255,7 @@ p {
 .cards {
   display: flex;
   justify-content: space-around;
-  text-align: center;
+  align-items: center;
   margin: 1.875rem;
 }
 .cards article img {
@@ -267,6 +274,7 @@ p {
   width: 100%;
   height: auto;
   object-fit: cover;
+  margin-bottom: 0.625rem;
   border-radius: 0.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -277,7 +285,7 @@ p {
 
 .vision, .mision, .redito {
   display: grid;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   margin-top: 1.5rem;
   padding: 1rem;
@@ -290,6 +298,9 @@ p {
 .vision:hover, .mision:hover, .redito:hover {
   transform: translateY(-0.25rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.vision h2, .mision h2, .redito h2 {
+  margin: 0.625rem;
 }
 .vision p, .mision p, .redito p {
   font-size: 1.1rem;
@@ -333,8 +344,8 @@ p {
 @media (max-width: 480px) {
   .navegador {
     display: block;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
   }
   .navegador ul {
     display: block;
@@ -371,8 +382,8 @@ p {
   }
   .cards {
     display: block;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
   }
   .noticias {
     display: block;
@@ -381,8 +392,8 @@ p {
   .container-footer,
   .derechos {
     display: block;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -423,8 +434,8 @@ p {
 @media (max-width: 768px) {
   .navegador {
     display: block;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
   }
   .navegador ul {
     display: block;
@@ -441,8 +452,8 @@ p {
   }
   .cards {
     display: block;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
   }
   .cards article img {
     width: 100%;
@@ -475,8 +486,8 @@ p {
   }
   .derechos {
     display: block;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
     padding-top: 1.25rem;
   }
   .autogestion {
@@ -512,7 +523,7 @@ p {
   }
   .title-somos {
     display: block;
-    text-align: center;
+    align-items: center;
     margin: 2.5rem;
   }
   .cards-somos {

@@ -1,6 +1,6 @@
+@use "../utilities/mixin" as m;
 .title-somos{
-    display: grid;
-    justify-items: center;
+    @include m.box-direction(grid, center);
     margin: 1.25rem;
 }
 
@@ -10,21 +10,18 @@
 }
 
 .card-historia {
-    display: grid;
+    @include m.box-align(grid, center);
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "titulo titulo"
         "imagen parrafo";
     gap: 1.875rem;
-    align-items: center;
     p{
         grid-area: parrafo;
     }
     h2{
-        display: grid;
+        @include m.box-center(grid, center, center);
         grid-area: titulo;
-        justify-items: center;
-        align-items: center;
         font-size: 2.1875rem; 
         font-weight: bold;
         margin: 1.25rem 0;

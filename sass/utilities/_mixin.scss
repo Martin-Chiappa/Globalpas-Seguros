@@ -1,0 +1,24 @@
+@mixin card-productores{
+    width: 15.625rem;
+    height: 6.25rem;
+    text-align: center;
+    background-color: #FFF5EC;
+    padding: 1.875rem;
+    border: .125rem solid black;
+}
+
+@mixin box-center($display, $justify-content, $align-items){
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin box-align($display, $align-items){
+    display: $display;
+    align-items: $align-items;
+}
+
+@mixin box-direction($display, $justify-content){
+    display: $display;
+    justify-content: $justify-content;
+}

@@ -1,4 +1,5 @@
 @use "../utilities/variable" as v;
+@use "../utilities/mixin" as m;
 
 .navbar-nav {
     .nav-link {
@@ -11,17 +12,14 @@
 }
 
 .navegador {
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFF5EC;
+    @include m.box-direction(flex, space-between);
+    background-color: v.$orange;
     padding: 0.5rem 1rem;
     ul {
-        display: flex;
+        @include m.box-center(flex, flex-end, center);
         list-style: none;
-        justify-content: flex-end;
         margin: 0;
         padding: 0;
-        align-items: center;
         gap: 0.5rem;
         li a {
             text-decoration: none;

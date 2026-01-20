@@ -1,7 +1,11 @@
+@use "../utilities/mixin" as m;
 .derechos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include m.box-center(flex, center, center);
     height: 3.75rem;
-    width: 100%;    
+    width: 100%;  
+    background-color: white; 
+    p{
+        margin: 0;
+        text-align: center;
+    }
 }

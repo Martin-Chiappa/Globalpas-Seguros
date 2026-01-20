@@ -1,9 +1,9 @@
+@use "../utilities/mixin" as m;
 @media (max-width: 768px) {
 
     .navegador {
-        display: block;
+        @include m.box-align(block, center);
         margin: 0 auto;
-        text-align: center;
         ul {
             display: block;
         }
@@ -21,9 +21,8 @@
         text-align: center;
     }
     .cards {
-        display: block;
+        @include m.box-align(block, center);
         margin: 0 auto;
-        text-align: center;
         article {
             img {
                 width: 100%;
@@ -59,9 +58,8 @@
         padding: 0.125rem 0 0.1875rem 0;
     }
     .derechos {
-        display: block;
+        @include m.box-align(block, center);
         margin: 0 auto;
-        text-align: center;
         padding-top: 1.25rem;
     }
     .autogestion {
@@ -98,8 +96,7 @@
         flex-wrap: wrap;
     }
     .title-somos {
-        display: block;
-        text-align: center;
+        @include m.box-align(block, center);
         margin: 2.5rem;
     }
     .cards-somos {

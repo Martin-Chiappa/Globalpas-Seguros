@@ -1,7 +1,6 @@
-
+@use "../utilities/mixin" as m;
 .productores{
-    display: flex;
-    justify-content: space-around;
+    @include m.box-direction(flex, space-around);
     margin: 1.875rem;
     flex-wrap: wrap;
 }
@@ -11,34 +10,18 @@
 }
 
 .santiago-productor{
-    width: 15.625rem;
-    height: 6.25rem;
-    text-align: center;
-    background-color: #FFF5EC;
-    padding: 1.875rem;
-    border: .125rem solid black;
+    @include m.card-productores;
 }
 
 .sebastian-productor{
-    width: 15.625rem;
-    height: 6.25rem;
-    text-align: center;
-    padding: 1.875rem;
-    border: .125rem solid black;
-}
-.emmanuel-productor{
-    width: 15.625rem;
-    height: 6.25rem;
-    text-align: center;
-    background-color: #FFF5EC;
-    padding: 1.875rem;
-    border: .125rem solid black;
+    @include m.card-productores;
 }
 
+.emmanuel-productor{
+    @include m.card-productores;
+}
+
+
 .lorena-productor{
-    width: 15.625rem;
-    height: 6.25rem;
-    text-align: center;
-    padding: 1.875rem;
-    border: .125rem solid black;
+    @include m.card-productores;
 }

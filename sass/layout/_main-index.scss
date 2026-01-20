@@ -1,11 +1,10 @@
+@use "../utilities/mixin" as m;
 .acceso-rapido{
     margin: 1.875rem;
 }
 
 .cards{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+    @include m.box-center(flex, space-around, center);
     margin: 1.875rem;
     article img{
         width: 25rem;

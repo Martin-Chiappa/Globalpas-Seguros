@@ -1,10 +1,10 @@
 @use "../utilities/variable" as *;
+@use "../utilities/mixin" as m;
 
 @media (max-width: 480px) {
     .navegador {
-        display: block;
+        @include m.box-align(block, center);
         margin: 0 auto;
-        text-align: center;
         ul {
             display: block;
         }
@@ -40,9 +40,8 @@
         margin: $gap-base;
     }
     .cards {
-        display: block;
+        @include m.box-align(block, center);
         margin: 0 auto;
-        text-align: center;
     }
     .noticias {
         display: block;
@@ -50,9 +49,8 @@
     }
     .container-footer,
     .derechos {
-        display: block;
+        @include m.box-align(block, center);
         margin: 0 auto;
-        text-align: center;
         padding-top: $gap-base;
         padding-bottom: $gap-base;
     }
