@@ -1,0 +1,54 @@
+.cards-somos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+    img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    }
+    }
+}
+.vision, .mision, .redito {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #fff8f0;
+    border-radius: 0.75rem;
+    border: 0.0625rem solid #e0d4c0;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    }
+    p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    &::before {
+        display: inline-block;
+        margin-right: 0.5rem;
+        font-size: 1.5rem;
+    }
+    }
+}
+.vision p::before {
+    content: "👁️";
+}
+.mision p::before {
+    content: "🎯";
+}
+.redito p::before {
+    content: "📈";
+}
+

@@ -1,0 +1,38 @@
+.title-somos{
+    display: grid;
+    justify-items: center;
+    margin: 1.25rem;
+}
+
+.nuestra-historia {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card-historia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "titulo titulo"
+        "imagen parrafo";
+    gap: 1.875rem;
+    align-items: center;
+    p{
+        grid-area: parrafo;
+    }
+    h2{
+        display: grid;
+        grid-area: titulo;
+        justify-items: center;
+        align-items: center;
+        font-size: 2.1875rem; 
+        font-weight: bold;
+        margin: 1.25rem 0;
+    }
+    img {
+        grid-area: imagen;
+        width: 100%;
+        height: auto;
+        border-radius: .625rem;
+    }
+}

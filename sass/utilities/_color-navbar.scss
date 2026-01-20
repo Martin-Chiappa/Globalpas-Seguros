@@ -1,0 +1,6 @@
+@use "../utilities/variable" as v;
+
+.bg-orange {
+    background-color: v.$orange;
+    color: v.$white;
+}

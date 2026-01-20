@@ -1,0 +1,44 @@
+
+.productores{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.875rem;
+    flex-wrap: wrap;
+}
+
+.title-prod{
+    text-align: center;
+}
+
+.santiago-productor{
+    width: 15.625rem;
+    height: 6.25rem;
+    text-align: center;
+    background-color: #FFF5EC;
+    padding: 1.875rem;
+    border: .125rem solid black;
+}
+
+.sebastian-productor{
+    width: 15.625rem;
+    height: 6.25rem;
+    text-align: center;
+    padding: 1.875rem;
+    border: .125rem solid black;
+}
+.emmanuel-productor{
+    width: 15.625rem;
+    height: 6.25rem;
+    text-align: center;
+    background-color: #FFF5EC;
+    padding: 1.875rem;
+    border: .125rem solid black;
+}
+
+.lorena-productor{
+    width: 15.625rem;
+    height: 6.25rem;
+    text-align: center;
+    padding: 1.875rem;
+    border: .125rem solid black;
+}

@@ -1,0 +1,15 @@
+.acceso-rapido{
+    margin: 1.875rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 1.875rem;
+    article img{
+        width: 25rem;
+        height: 25rem;
+        align-items: center;
+    }
+}

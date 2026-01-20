@@ -1,0 +1,154 @@
+
+/*Tablet*/
+@media (max-width: 768px){
+    .navegador{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }    
+    .navegador ul{
+        display: block;
+    }    
+    .logo{
+        margin: 0 auto;
+    }
+    .banner img{
+        width: 100%;
+        height: auto;
+    }
+    .acceso-rapido{
+        text-align: center;
+    }
+    .cards{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cards article img{
+        width: 100%;
+        height: auto;
+    }
+    .cards h3{
+        text-align: center;
+        padding: .3125rem;
+    }
+    .cards p{
+        text-align: center;
+        margin-bottom: 1.25rem;
+        padding: .125rem;
+    }
+    .noticia-h2{
+        text-align: center;        
+    }
+    .noticias{
+        display: block;
+        margin: 0 auto;
+    }
+    .noticias div img{
+        width: 100%;
+        height: auto;
+    }
+    .container-footer{
+        display: block;
+        margin: 0 auto;
+        padding-top: .125rem;
+        padding-bottom: .1875rem;        
+    }
+    .derechos{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1.25rem;
+    }
+    .autogestion{
+        flex-wrap: wrap;
+        margin: .3125rem;
+    }
+    .autogestion div img{
+        width: 100%;
+        height: auto;
+    }
+    .autogestion div h2{
+        text-align: center;
+        margin: .3125rem;
+    }
+    .autogestion div p{
+        text-align: center;
+        margin: .3125rem;
+    }
+    .productores{
+        flex-wrap: wrap;
+        margin: .625rem;
+        padding: .3125rem;
+    }
+    .title-contactanos h1{
+        margin: 3.125rem;
+        text-align: center;
+    }
+    .title-prod{
+        text-align: center;
+        margin: 1.25rem;
+    }
+    .consulta{
+        flex-wrap: wrap;
+    }
+    .title-contactanos{
+        text-align: center;
+    }
+    .title-somos{
+        display: block;
+        text-align: center;
+        margin: 2.5rem;
+    }    
+    .cards-somos {
+        display: block;
+        margin: 0 auto;
+        padding: .625rem;
+    }
+    .vision p{
+        text-align: center;
+        margin: .3125rem; 
+    }
+    .mision p{
+        text-align: center;
+        margin: .3125rem; 
+    }
+    .redito p{
+        text-align: center;
+        margin: .3125rem;
+    }
+    .vision h2{
+        text-align: center;
+        margin: .3125rem;
+    }
+    .mision h2{
+        text-align: center;
+        margin: .3125rem;
+    }
+    .redito h2{
+        text-align: center;
+        margin: .3125rem;
+    }
+    .cards-somos img {
+        width: 100%;         
+        height: auto;       
+    }    
+    .card-historia {
+        display: block;
+        margin: 0 auto;
+    }
+    .card-historia p {
+        text-align: center;
+        padding: .9375rem;
+    }
+    
+    .card-historia h2{
+        text-align: center;
+        margin: 2.5rem;
+    }
+    
+    .card-historia img {
+        width: 100%;
+        height: auto;
+    }
+}

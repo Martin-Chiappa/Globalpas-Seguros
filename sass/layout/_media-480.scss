@@ -1,0 +1,101 @@
+
+@media (max-width: 480px) {
+    .navegador {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+
+    ul {
+        display: block;
+    }
+}
+.logo {
+    margin: 0 auto;
+}
+
+.banner img,
+.cards article img,
+.noticias div img,
+.autogestion div img,
+.cards-somos img,
+.card-historia img {
+    width: 100%;
+    height: auto;
+}
+
+.acceso-rapido,
+.cards h3,
+.cards p,
+.noticia-h2,
+.title-contactanos,
+.title-prod,
+.title-somos,
+.vision p,
+.mision p,
+.redito p,
+.vision h2,
+.mision h2,
+.redito h2,
+.card-historia p,
+.card-historia h2 {
+    text-align: center;
+    margin: $gap-base;
+}
+
+.cards {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.noticias {
+    display: block;
+    margin: 0 auto;
+}
+
+.container-footer,
+.derechos {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: $gap-base;
+    padding-bottom: $gap-base;
+}
+
+.autogestion,
+.productores,
+.consulta {
+    flex-wrap: wrap;
+    margin: $gap-base;
+}
+
+.autogestion div h2,
+.autogestion div p,
+.productores {
+    text-align: center;
+    margin: $gap-base;
+}
+
+.cards-somos {
+    display: block;
+    margin: 0 auto;
+    padding: $gap-base;
+}
+
+.card-historia {
+    display: block;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    p {
+        text-align: center;
+        padding: 0.9375rem;
+    }
+    h2 {
+        text-align: center;
+        margin: 2.5rem;
+    }
+    }
+}
