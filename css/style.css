@@ -258,10 +258,17 @@ p {
   align-items: center;
   margin: 1.875rem;
 }
-.cards article img {
-  width: 25rem;
-  height: 25rem;
-  align-items: center;
+
+.seguro-vida {
+  padding: 1.5rem;
+}
+.seguro-vida h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.seguro-vida p {
+  text-align: center;
+  margin: 0.5rem 0;
 }
 
 .cards-somos {
