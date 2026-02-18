@@ -87,4 +87,13 @@
             margin: 2.5rem;
         }
     }
+    .article-index div img,
+    .article-index p{
+        max-width: 30vw;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 }

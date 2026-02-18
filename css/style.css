@@ -259,16 +259,19 @@ p {
   margin: 1.875rem;
 }
 
-.seguro-vida {
-  padding: 1.5rem;
+.article-index {
+  width: 30vw;
 }
-.seguro-vida h3 {
+.article-index h3 {
   text-align: center;
   margin-bottom: 1rem;
 }
-.seguro-vida p {
+.article-index p {
   text-align: center;
   margin: 0.5rem 0;
+}
+.article-index img {
+  max-width: 30vw;
 }
 
 .cards-somos {
@@ -335,7 +338,8 @@ p {
 
 .autogestion {
   display: flex;
-  margin: 3.125rem;
+  margin: 1.875rem;
+  gap: 1.25rem;
 }
 .autogestion div img {
   width: 100%;
@@ -436,6 +440,15 @@ p {
   .card-historia h2 {
     text-align: center;
     margin: 2.5rem;
+  }
+  .article-index div img,
+  .article-index p {
+    max-width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (max-width: 768px) {
@@ -566,6 +579,15 @@ p {
   .card-historia img {
     width: 100%;
     height: auto;
+  }
+  .article-index div img,
+  .article-index p {
+    max-width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
 .bg-orange {
